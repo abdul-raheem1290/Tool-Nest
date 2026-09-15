@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer components {
+  .calc-btn-num {
+    @apply flex items-center justify-center p-3 sm:p-4 text-base sm:text-lg font-bold rounded-2xl bg-slate-100 hover:bg-slate-200 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-900 dark:text-white transition-colors active:scale-95 shadow-xs;
+  }
+  .calc-btn-op {
+    @apply flex items-center justify-center p-3 sm:p-4 text-base sm:text-lg font-bold rounded-2xl bg-indigo-50 hover:bg-indigo-100 dark:bg-indigo-950/60 dark:hover:bg-indigo-900/80 text-indigo-600 dark:text-indigo-300 transition-colors active:scale-95 shadow-xs;
+  }
+  .calc-btn-fn {
+    @apply flex items-center justify-center p-3 sm:p-4 text-sm sm:text-base font-semibold rounded-2xl bg-slate-200 hover:bg-slate-300 dark:bg-slate-700/60 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 transition-colors active:scale-95 shadow-xs;
+  }
+  .calc-btn-sc {
+    @apply flex items-center justify-center p-2.5 sm:p-3 text-xs sm:text-sm font-semibold rounded-2xl bg-slate-100/70 hover:bg-slate-200/80 dark:bg-slate-800/60 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-300 transition-colors active:scale-95;
+  }
+  .calc-btn-eq {
+    @apply flex items-center justify-center p-3 sm:p-4 text-base sm:text-lg font-bold rounded-2xl bg-indigo-600 hover:bg-indigo-500 text-white transition-colors active:scale-95 shadow-md shadow-indigo-500/25;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ToolNest Pro",
+  "description": "Powerful Everyday Tools. One Professional Workspace. High-performance browser utilities for image compression, document conversion, AI chat, QR codes, project management, and developer utilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
